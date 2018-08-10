@@ -23,9 +23,9 @@ phases:
 #        - sudo apt-get install -y npm
         # Install Angular CLI, If you are not using Angular 6, install angular/cli@1.7.0 or lower, confirm by running ng -v inside your project folder
        # - npm global add @angular/cli@6.0.8
-	- which npm
-	- which node
-	- npm install -g @angular/cli
+        - which npm
+        - which node
+        - npm install -g @angular/cli
         # Install node dependancies.
         - npm install
 
